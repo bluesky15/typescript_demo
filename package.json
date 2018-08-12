@@ -4,7 +4,7 @@
   "description": "typescript",
   "main": "index.js",
   "scripts": {
-    "start": "tsc ./src/main.ts && node ./src/main.js"
+    "start": "tsc&& node ./dist/main.js"
   },
   "repository": {
     "type": "git",
