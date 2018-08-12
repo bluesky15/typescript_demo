@@ -1,0 +1,22 @@
+{
+  "name": "typescript_demo",
+  "version": "1.0.0",
+  "description": "typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc ./src/main.ts && node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erlalitkumar/typescript_demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erlalitkumar/typescript_demo/issues"
+  },
+  "homepage": "https://github.com/erlalitkumar/typescript_demo#readme",
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}
