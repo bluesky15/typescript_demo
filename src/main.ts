@@ -1,5 +1,6 @@
 // console.log("hello world!");
-
+import index from './index'
+import runIndexCode from './index';
 class Message{
      msg: string;
     constructor(msg:string){
@@ -12,3 +13,4 @@ class Message{
 
 var message = new Message("Hello there");
 message.greet();
+runIndexCode()
